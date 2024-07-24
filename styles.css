@@ -4,7 +4,7 @@
     font-family: poppins;
 }
 body{
-    background:url(../bgcwebsite.jpg);
+    background:url(./bgcwebsite.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
