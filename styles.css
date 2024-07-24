@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+body{
+    background:url(/bgc\ wbsite.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    color:rgb(75, 68, 68);
+    height: 7vw;
+}
+header .logo{
+    padding-left: 2vw;
+    font-size: 2.3vw;
+    font-weight:800;
+    color:rgb(255, 140, 0);
+}
+header nav {
+    padding-top: 1.3vw;
+    padding-right: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.3vw;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    border: 600;
+    transition: 1s ease-in-out;
+
+}
+header nav   ul li i{
+    font-size: 2vw;
+    display: none;
+}
+header nav ul li a:hover{
+    color: #ff7200;
+}
+header nav ul button{
+    padding: 0.5vw 2vw ;
+    border: 2px solid rgb(112, 29, 190);
+    border-radius: 10%;
+    color: white;
+    background-color: rgb(112, 29, 190);
+}
+header nav ul input{
+    padding: 1vw 0;
+    padding: 3px;
+    background: transparent;
+    border: 2px solid #ff7200;
+}
+
+.first-section .left-section{
+    margin-top: 2vw;
+    color: white;
+    font-size: 1.7vw;
+    margin: 4vw 3vw;
+    width: 40%;
+}
+body .left-section h1 span{
+    color: rgb(255, 140, 0);
+}
+body .left-section button{
+    background-color:rgb(255, 140, 0);
+    color: black;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: .5vw 2.5vw;
+    margin-top: 1.3vw;
+    border-radius: 8px;
+    border: none;
+
+}
+.first-section .left-section button:hover{
+    cursor: pointer;
+}
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+.first-section .right-section{
+    margin: 2vw 4vw;
+    padding: 1vw 2vw;
+    background-color: black;
+    color: white;
+}
+.first-section .right-section li{
+    list-style: none;
+}
+.first-section .right-section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.first-section .right-section .logo{
+    background-color: #fff;
+    padding: .5vw 3vw;
+    width: 100%;
+    color: rgb(218, 141, 0);
+    font-size: 1vw;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+.first-section .right-section input{
+    width: 100%;
+    margin-top: 1vw;
+    padding-top: 1vw;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    background:transparent;
+    border: none;
+    border-bottom: 3px solid #ff7200;
+}
+.first-section .right-section button{
+    margin-top: 1vw ;
+    width: 100%;
+    padding: 7px 2px;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: orange;
+    border-radius: 8px;
+    transition: 1s ease-in-out;
+}
+
+.first-section .right-section p{
+    padding-top: 1vw;
+
+}
+.first-section .right-section p a{
+    color: rgb(103, 29, 176);
+    text-decoration: none;
+}
+.first-section .right-section button:hover ,.first-section .left-section button:hover{
+    color: #ff7200;
+    background-color: #fff;
+    cursor: pointer;
+}
+.first-section .right-section .icons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+    font-size: 1.7vw;
+    transition: 1s ease-in-out;
+}
+.first-section .right-section .icons a:hover{
+    color: #ff7200;
+}
+.first-section .right-section .icons li a{
+    color: white;
+}
+
+
+
+
+@media (max-width:600px) {
+    html{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    header nav .logo{
+        padding-top: 2vw;
+        padding-left: 2vw;
+        font-size: 5vw;
+        font-weight: 800;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav ul li {
+        align-items: center;
+    }
+    header nav ul button{
+        height: 100%;
+    }
+    header nav ul input{
+        font-size: 1.7vw;
+    }
+    header nav ul button{
+        padding: 0px;
+        font-size: 2vw;
+    }
+    nav.logo{
+        font-size: 3vw;
+    }
+    nav ul li a {
+        font-size: 1.2vw;
+        display: none;
+    }
+    nav ul input{
+        padding: none;
+    }
+    header nav ul li i{
+        font-size: 6vw;
+        display: contents;
+        color: white;
+    }
+
+
+    .first-section {
+        flex-direction: column;
+    }
+    .first-section .left-section{
+        width: 95%;
+        margin: 2vw 0vw;
+        padding-left: 4vw;
+        margin-top: 14vw;
+    }
+    .first-section .left-section h1 {
+        font-size: 5vw;
+    }
+    .first-section .left-section button {
+        font-size: 2.5vw;
+        margin: 5vw 0;
+    }
+    .first-section .right-section {
+        width:40%;
+        background:none;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: o 8px 32px 0 rgba(0, 0, 0, 0.37);
+        position: relative;
+        justify-content: center;
+        left: 25%;
+        right: 30%;
+        height: 36vh;
+    }
+    .first-section .right-section .logo{
+        font-size: 4vw;
+        margin-top: 2.4vw;
+        border: none;
+    }
+    .first-section .right-section input{
+        font-size: 3vw;
+        margin-top: 5vw;
+    }
+    .first-section .right-section button{
+        font-size: 3vw;
+        margin-top: 4vw;
+        border: none;
+    }
+    .first-section .right-section p{
+        font-size: 2vw;
+    }
+    .first-section .right-section p a{
+        font-size: 3vw;
+        color: rgb(200, 10, 48);
+
+    }
+    .first-section .right-section .icons{
+        font-size: 4vw;
+    }
+}
