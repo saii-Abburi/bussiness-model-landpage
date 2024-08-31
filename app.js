@@ -8,11 +8,12 @@ import { getDatabase, ref , push , set} from "https://www.gstatic.com/firebasejs
 const firebaseConfig = {
   apiKey: "AIzaSyAChMDDca_FhsZmuFMg-dnc3smh5UMIj4Q",
   authDomain: "ground-ad084.firebaseapp.com",
-  databaseURL: "https://ground-ad084-default-rtdb.europe-west1.firebasedatabase.app",
+  databaseURL: "https://fir-authentication-ca637-default-rtdb.europe-west1.firebasedatabase.app/",
   projectId: "ground-ad084",
   storageBucket: "ground-ad084.appspot.com",
   messagingSenderId: "207294284362",
-  appId: "1:207294284362:web:5b32aab5dc46caff6f1cb3"
+  appId: "1:207294284362:web:5b32aab5dc46caff6f1cb3",
+
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
